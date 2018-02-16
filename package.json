@@ -1,0 +1,26 @@
+{
+  "name": "gettweets-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tweets"
+  ],
+  "author": "Starsky Lara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.27",
+    "mongoose": "^4.10.2",
+    "mpromise": "^0.5.5",
+    "socket.io": "^2.0.1",
+    "twitter": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

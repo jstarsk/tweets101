@@ -1,0 +1,24 @@
+{
+  "test": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/get-tweets-test",
+    "JWT_SECRET": "uKh9m2wNKZ9dqtEg",
+    "TWITTER_CONSUMER_KEY": "tuJYlaQ8FzdOs5wYhgZUkQgvw",
+    "TWITTER_CONSUMER_SECRET": "4ULAUcR5BeOW6E08OEfiDXnYMwcpSm81ljKK4Vz3fMHz6IQFeO",
+    "TWITTER_ACCESS_TOKEN_KEY": "2819495812-F6vN0taiKuQMcqzFPCtzuUcWwPa7pkkmXx4XpHg",
+    "TWITTER_ACCESS_TOKEN_SECRET": "wIjSIoZZ1jMTTj0ibGbPf5RgwZF7g8hLfI6vrh70COsCj"
+  },
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/get-tweets",
+    "JWT_SECRET": "uKh9m2wNKZ9dqtEg",
+    "TWITTER_CONSUMER_KEY": "tuJYlaQ8FzdOs5wYhgZUkQgvw",
+    "TWITTER_CONSUMER_SECRET": "4ULAUcR5BeOW6E08OEfiDXnYMwcpSm81ljKK4Vz3fMHz6IQFeO",
+    "TWITTER_ACCESS_TOKEN_KEY": "2819495812-F6vN0taiKuQMcqzFPCtzuUcWwPa7pkkmXx4XpHg",
+    "TWITTER_ACCESS_TOKEN_SECRET": "wIjSIoZZ1jMTTj0ibGbPf5RgwZF7g8hLfI6vrh70COsCj"
+  },
+  "production": {
+    "MONGODB_URI": "",
+    "JWT_SECRET": "uKh9m2wNKZ9dqtEg"
+  }
+}
